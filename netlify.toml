@@ -1,0 +1,4 @@
+[build]
+  publish = "."
+  # Genera un ZIP descargable con la versión actual del sitio en cada deploy
+  command = "mkdir -p descargas && zip -r -q descargas/centrobellezia-sitio.zip index.html assets"
